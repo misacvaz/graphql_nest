@@ -22,7 +22,7 @@ import { CorsModule } from '../cors.module';
 @Module({
   imports: [
 
-    ConfigModule.forRoot(),
+    ConfigModule.forRoot(), //
     CorsModule,
 
     GraphQLModule.forRootAsync({
